@@ -21,3 +21,28 @@ The Matrix Multiplication for 2^m x 2^m Matrices project aims to implement an ef
 
 1. Clone the repository:
 2. Run C++ code on NVidia GPU
+
+# Fast Fourier Transform (FFT)
+
+This project implements the Fast Fourier Transform (FFT) algorithm using CUDA on a GPU for input sizes of 2^m, where m is between 23 and 26.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Installation](#installation)
+
+
+## Project Overview
+
+The CUDA Fast Fourier Transform (FFT) for 2^m-sized Inputs project aims to accelerate the computation of the FFT algorithm using CUDA on a GPU. The algorithm is optimized for input sizes of 2^m, where m is between 23 and 26, to leverage the parallel processing capabilities of the GPU and improve performance.
+
+## Features
+
+- CUDA-based FFT: Accelerated computation of the Fast Fourier Transform (FFT) using CUDA on a GPU.
+- Support for 2^m-sized inputs: Handles input sizes of 2^23, 2^24, 2^25, and 2^26.
+- Parallel processing: Utilizes the GPU's parallel processing capabilities for faster execution.
+
+## Installation
+
+1. Clone the repository:
+2. Run C++ code on NVidia GPU

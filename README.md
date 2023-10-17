@@ -19,7 +19,7 @@ The Matrix Multiplication for 2^m x 2^m Matrices project aims to implement an ef
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository
 2. Run C++ code on NVidia GPU
 
 # Fast Fourier Transform (FFT)
@@ -44,5 +44,34 @@ The CUDA Fast Fourier Transform (FFT) for 2^m-sized Inputs project aims to accel
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository
 2. Run C++ code on NVidia GPU
+
+
+# Multi-threaded Merge Sort with pthreads
+
+This project implements the Merge Sort algorithm using pthreads with 4 threads to leverage parallel processing capabilities and improve performance.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Installation](#installation)
+
+## Project Overview
+
+The Multi-threaded Merge Sort with pthreads project aims to accelerate the sorting of large arrays using the Merge Sort algorithm with the help of pthreads. By dividing the sorting task among 4 threads, the algorithm can take advantage of parallel processing to achieve faster sorting times.
+
+## Features
+
+- Multi-threaded Merge Sort: Sorting of large arrays using the Merge Sort algorithm with pthreads.
+- 4-thread parallel processing: Utilizes 4 threads to divide the sorting task and improve performance.
+- Efficient sorting: Merge Sort provides an efficient and stable sorting algorithm.
+
+## Installation
+
+1. Clone the repository:
+
+## Installation
+
+1. Clone the repository
+2. Run C++ code use gcc-pthread
